@@ -21,6 +21,8 @@ dependencies {
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
     compile group:'org.seleniumhq.selenium',name:'selenium-java',version:'3.13.0'
+	compile 'log4j:log4j:1.2.17'
+	
 }
 
 // In this section you declare where to find the dependencies of your project
