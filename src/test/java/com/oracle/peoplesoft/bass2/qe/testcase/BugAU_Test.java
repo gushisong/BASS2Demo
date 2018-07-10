@@ -31,9 +31,7 @@ public class BugAU_Test {
 	 */
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
-		DOMConfigurator.configure("log4j.xml");
-		driver =Utils.openBrowser(Constants.BugAU_URL);
-		new BaseClass(driver);
+
 		
 		
 		
@@ -63,8 +61,12 @@ public class BugAU_Test {
 	@Test
 	public void Login() throws Exception {
 		
+		DOMConfigurator.configure("log4j.xml");
+		driver =Utils.openBrowser(Constants.BugAU_URL);
+		new BaseClass(driver);
 		Home_Page.lnk_CreateRequest().click();
 		BugAU_SignIn_Action.Execute();
+		
 	}
 
 }
