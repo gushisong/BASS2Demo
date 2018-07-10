@@ -38,3 +38,14 @@
 2018-07-10 14:30:33,152 INFO  [Log] Login button is found on Login Page 
 2018-07-10 14:46:01,945 INFO  [Log] Create Request link is found on BugAU Home page 
 2018-07-10 14:46:02,733 ERROR [Log] UserName input filed is not found on Login Page 
+2018-07-10 15:26:36,561 INFO  [Log] Create Request link is found on BugAU Home page 
+2018-07-10 15:26:40,755 INFO  [Log] UserName input filed is found on Login Page 
+2018-07-10 15:26:40,834 INFO  [Log] Password input field is found on Login Page 
+2018-07-10 15:26:40,896 INFO  [Log] Login button is found on Login Page 
+2018-07-10 15:26:40,959 INFO  [Log] UserName input filed is found on Login Page 
+2018-07-10 15:26:41,003 INFO  [Log] UserName input filed is found on Login Page 
+2018-07-10 15:26:41,190 INFO  [Log] xiaolei.song@oracle.com is entered in UserName text box 
+2018-07-10 15:26:41,210 INFO  [Log] Password input field is found on Login Page 
+2018-07-10 15:26:41,273 INFO  [Log] Password input field is found on Login Page 
+2018-07-10 15:26:41,415 INFO  [Log] IRL-local-1234is entered in Password text box 
+2018-07-10 15:26:41,441 INFO  [Log] Login button is found on Login Page 
