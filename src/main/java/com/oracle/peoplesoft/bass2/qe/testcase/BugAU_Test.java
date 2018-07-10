@@ -26,41 +26,9 @@ import com.oracle.peoplesoft.bass2.qe.utility.Utils;
 public class BugAU_Test {
 	
 	private static WebDriver driver;
-	/**
-	 * @throws java.lang.Exception
-	 */
-	@BeforeClass
-	public static void setUpBeforeClass() throws Exception {
+	
+	public static void main(String[] args) throws Exception {
 
-		
-		
-		
-	}
-
-	/**
-	 * @throws java.lang.Exception
-	 */
-	@AfterClass
-	public static void tearDownAfterClass() throws Exception {
-	}
-
-	/**
-	 * @throws java.lang.Exception
-	 */
-	@Before
-	public void setUp() throws Exception {
-	}
-
-	/**
-	 * @throws java.lang.Exception
-	 */
-	@After
-	public void tearDown() throws Exception {
-	}
-
-	@Test
-	public void Login() throws Exception {
-		
 		DOMConfigurator.configure("log4j.xml");
 		driver =Utils.openBrowser(Constants.BugAU_URL);
 		new BaseClass(driver);
@@ -68,5 +36,7 @@ public class BugAU_Test {
 		BugAU_SignIn_Action.Execute();
 		
 	}
+
+
 
 }
