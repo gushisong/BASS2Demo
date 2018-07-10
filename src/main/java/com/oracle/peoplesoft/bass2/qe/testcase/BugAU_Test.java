@@ -3,14 +3,10 @@
  */
 package com.oracle.peoplesoft.bass2.qe.testcase;
 
-import static org.junit.Assert.*;
+
 
 import org.apache.log4j.xml.DOMConfigurator;
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+
 import org.openqa.selenium.WebDriver;
 
 import com.oracle.peoplesoft.bass2.qe.appModules.bugau.BugAU_SignIn_Action;
