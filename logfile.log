@@ -24,3 +24,4 @@
 2018-07-10 14:22:42,302 INFO  [Log] Password input field is found on Login Page 
 2018-07-10 14:22:42,419 INFO  [Log] IRL-local-1234is entered in Password text box 
 2018-07-10 14:22:42,435 INFO  [Log] Login button is found on Login Page 
+2018-07-10 14:27:26,301 ERROR [Log] Create Request link is not found on BugAU Home page 
