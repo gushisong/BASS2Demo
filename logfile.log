@@ -1,0 +1,26 @@
+2018-07-10 13:54:10,003 INFO  [Log] Please enter a valid type of targeting elements. 
+2018-07-10 14:14:43,209 INFO  [Log] Please enter a valid type of targeting elements. 
+2018-07-10 14:20:56,284 INFO  [Log] Create Request link is found on BugAU Home page 
+2018-07-10 14:20:58,475 INFO  [Log] Please enter a valid type of targeting elements. 
+2018-07-10 14:21:45,687 INFO  [Log] Create Request link is found on BugAU Home page 
+2018-07-10 14:21:49,628 INFO  [Log] UserName input filed is found on Login Page 
+2018-07-10 14:21:49,705 INFO  [Log] Password input field is found on Login Page 
+2018-07-10 14:21:49,761 INFO  [Log] Login button is found on Login Page 
+2018-07-10 14:21:49,813 INFO  [Log] UserName input filed is found on Login Page 
+2018-07-10 14:21:49,853 INFO  [Log] UserName input filed is found on Login Page 
+2018-07-10 14:21:50,027 INFO  [Log] xiaolei.song@oracle.com is entered in UserName text box 
+2018-07-10 14:21:50,063 INFO  [Log] Password input field is found on Login Page 
+2018-07-10 14:21:50,125 INFO  [Log] Password input field is found on Login Page 
+2018-07-10 14:21:50,215 INFO  [Log] IRL-local-1234is entered in Password text box 
+2018-07-10 14:21:50,229 INFO  [Log] Login button is found on Login Page 
+2018-07-10 14:22:37,638 INFO  [Log] Create Request link is found on BugAU Home page 
+2018-07-10 14:22:41,773 INFO  [Log] UserName input filed is found on Login Page 
+2018-07-10 14:22:41,856 INFO  [Log] Password input field is found on Login Page 
+2018-07-10 14:22:41,919 INFO  [Log] Login button is found on Login Page 
+2018-07-10 14:22:41,972 INFO  [Log] UserName input filed is found on Login Page 
+2018-07-10 14:22:42,019 INFO  [Log] UserName input filed is found on Login Page 
+2018-07-10 14:22:42,234 INFO  [Log] xiaolei.song@oracle.com is entered in UserName text box 
+2018-07-10 14:22:42,251 INFO  [Log] Password input field is found on Login Page 
+2018-07-10 14:22:42,302 INFO  [Log] Password input field is found on Login Page 
+2018-07-10 14:22:42,419 INFO  [Log] IRL-local-1234is entered in Password text box 
+2018-07-10 14:22:42,435 INFO  [Log] Login button is found on Login Page 

@@ -4,6 +4,7 @@
 import org.junit.Test;
 
 import com.oracle.peoplesoft.bass2.qe.utility.Constants;
+import com.oracle.peoplesoft.bass2.qe.utility.Utils;
 
 import static org.junit.Assert.*;
 
@@ -20,5 +21,14 @@ public class LibraryTest {
     @Test
     public void testCase001() {
     	assertEquals(Constants.URL,"wwww");
+    }
+    
+    @Test 
+    public void TestCase002() {
+    	assertNotNull(Utils.openBrowser(Constants.URL));
+    }
+    @Test
+    public void Login() {
+    	
     }
 }
