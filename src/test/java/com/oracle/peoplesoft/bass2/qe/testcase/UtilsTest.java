@@ -1,4 +1,4 @@
-package com.oracle.peoplesoft.bass2.qe.utility;
+package com.oracle.peoplesoft.bass2.qe.testcase;
 
 import static org.junit.Assert.*;
 
@@ -7,6 +7,9 @@ import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
+
+import com.oracle.peoplesoft.bass2.qe.utility.Constants;
+import com.oracle.peoplesoft.bass2.qe.utility.Utils;
 
 public class UtilsTest {
 
@@ -28,7 +31,7 @@ public class UtilsTest {
 
 	@Test
 	public void testOpenBrowser() {
-		System.out.println("Test");
+		Utils.openBrowser(Constants.BugAU_URL); 
 	}
 
 }

@@ -8,8 +8,17 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class CalculateTest {
-
+public class ErrorAndFailureTest {
+	
+	/**
+	 * 
+	 * Failure--程序输出的结果与预期不同
+	 * Errors--代码异常引起的，
+	 * 
+	 * 
+	 * 
+	 * @throws Exception
+	 */
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
 	}
@@ -27,9 +36,10 @@ public class CalculateTest {
 	}
 
 	@Test
-	public void Test() {
-		
+	public void test() {
+		fail("Not yet implemented");
 	}
+	
 	@Test
 	public void testAdd() {
 		try {
@@ -38,31 +48,8 @@ public class CalculateTest {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		assertEquals(6, new Calculate().add(3, 3));
+		assertEquals(5, new Calculate().add(3, 3));
 	}
-
-	@Test
-	public void testSubtract() {
-		try {
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		assertEquals(0, new Calculate().subtract(3, 3));
-	}
-
-	@Test
-	public void testMultiply() {
-		try {
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		assertEquals(9, new Calculate().multiply(3, 3));
-	}
-
 	@Test
 	public void testDivide() {
 		try {
@@ -71,7 +58,8 @@ public class CalculateTest {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		assertEquals(1, new Calculate().divide(3, 3));
+		assertEquals(1, new Calculate().divide(3, 0));
 	}
+
 
 }
