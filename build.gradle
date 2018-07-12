@@ -11,6 +11,12 @@ plugins {
     id 'java-library'
 }
 
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'application'
+
+mainClassName='com.oracle.peoplesoft.bass2.qe.testcase.BugAU_Test.Main'
+
 dependencies {
     // This dependency is exported to consumers, that is to say found on their compile classpath.
     api 'org.apache.commons:commons-math3:3.6.1'
@@ -32,3 +38,5 @@ repositories {
     // You can declare any Maven/Ivy/file repository here.
     jcenter()
 }
+
+
